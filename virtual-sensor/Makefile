@@ -1,7 +1,7 @@
-CONTIKI_PROJECT = sensor_node
+CONTIKI_PROJECT = sensor-node
 all: $(CONTIKI_PROJECT)
 
-PROJECT_SOURCEFILES += sensor_virtual.c
+PROJECT_SOURCEFILES += virtual-sensor.c
 
 CONTIKI = ../../..
 include $(CONTIKI)/Makefile.include

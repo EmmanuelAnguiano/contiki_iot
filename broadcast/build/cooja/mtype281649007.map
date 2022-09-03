@@ -1,0 +1,2069 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libc.so.6                     build/cooja/obj/random.o (srand@@GLIBC_2.2.5)
+
+Allocating common symbols
+Common symbol       size              file
+
+simButtonIsDown     0x1               build/cooja/obj/buttons.o
+simOutDataBuffer    0x7d              build/cooja/obj/cooja-radio.o
+compower_idle_activity
+                    0x10              build/cooja/obj/compower.o
+linkaddr_node_addr  0x8               build/cooja/obj/linkaddr.o
+simSerialReceivingFlag
+                    0x1               build/cooja/obj/rs232.o
+simEEPROMData       0x400             build/cooja/obj/eeprom.o
+periodic_timer      0x40              build/cooja/obj/link-stats.o
+simLoggedLength     0x4               build/cooja/obj/cooja-log.o
+simSerialReceivingLength
+                    0x4               build/cooja/obj/rs232.o
+simEtimerPending    0x4               build/cooja/obj/simEnvChange.o
+nullnet_len         0x2               build/cooja/obj/nullnet.o
+simVibChanged       0x1               build/cooja/obj/vib-sensor.o
+simRtimerPending    0x4               build/cooja/obj/rtimer-arch.o
+button_hal_periodic_event
+                    0x1               build/cooja/obj/button-hal.o
+button_hal_press_event
+                    0x1               build/cooja/obj/button-hal.o
+simProcessRunValue  0x4               build/cooja/obj/simEnvChange.o
+serial_line_event_message
+                    0x1               build/cooja/obj/serial-line.o
+referenceVar        0x8               build/cooja/mtype281649007.o
+simCurrentTime      0x8               build/cooja/obj/clock.o
+simVibIsActive      0x1               build/cooja/obj/vib-sensor.o
+simSerialReceivingData
+                    0x800             build/cooja/obj/rs232.o
+simLoggedFlag       0x1               build/cooja/obj/cooja-log.o
+packetbuf_attrs     0x1a              build/cooja/obj/packetbuf.o
+simRtimerCurrentTicks
+                    0x8               build/cooja/obj/rtimer-arch.o
+simRandomSeed       0x4               build/cooja/obj/moteid.o
+simLoggedData       0x2000            build/cooja/obj/cooja-log.o
+simEtimerNextExpirationTime
+                    0x8               build/cooja/obj/simEnvChange.o
+simButtonChanged    0x1               build/cooja/obj/buttons.o
+simRtimerNextExpirationTime
+                    0x8               build/cooja/obj/rtimer-arch.o
+simPirIsActive      0x1               build/cooja/obj/pir-sensor.o
+simInDataBuffer     0x7d              build/cooja/obj/cooja-radio.o
+simPirChanged       0x1               build/cooja/obj/pir-sensor.o
+simBeeped           0x1               build/cooja/obj/beep.o
+sensors_event       0x1               build/cooja/obj/sensors.o
+button_hal_release_event
+                    0x1               build/cooja/obj/button-hal.o
+packetbuf_addrs     0x10              build/cooja/obj/packetbuf.o
+nullnet_buf         0x8               build/cooja/obj/nullnet.o
+simMoteIDChanged    0x1               build/cooja/obj/moteid.o
+sensors_flags       0x4               build/cooja/mtype281649007.o
+simMoteID           0x4               build/cooja/obj/moteid.o
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/mtype281649007.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/mtype281649007.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/aes-128.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/aes-128.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/anti-replay.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/anti-replay.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/assert.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/assert.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/atomic.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/atomic.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/autostart.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/autostart.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/beep.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/beep.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/broadcast-receiver.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/broadcast-receiver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/button-hal.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/button-hal.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/buttons.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/buttons.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ccm-star-packetbuf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ccm-star-packetbuf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ccm-star.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ccm-star.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/cfs-cooja.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/cfs-cooja.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/circular-list.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/circular-list.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/clock.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/clock.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/compower.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/compower.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/contiki-main.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/contiki-main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/cooja-log.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/cooja-log.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/cooja-radio.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/cooja-radio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/cooja_mt.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/cooja_mt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/cooja_mtarch.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/cooja_mtarch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/crc16.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/crc16.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/csma-output.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/csma-output.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/csma-security.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/csma-security.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/csma.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/csma.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ctimer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ctimer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/dbl-circ-list.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/dbl-circ-list.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/dbl-list.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/dbl-list.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/eeprom.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/eeprom.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/energest.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/energest.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/etimer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/etimer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/frame802154.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/frame802154.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/frame802154e-ie.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/frame802154e-ie.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/framer-802154.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/framer-802154.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/gpio-hal-arch.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/gpio-hal-arch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/gpio-hal.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/gpio-hal.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/heapmem.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/heapmem.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/hexconv.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/hexconv.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ifft.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ifft.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/int-master.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/int-master.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ip.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ip.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/leds-arch.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/leds-arch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/leds.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/leds.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/link-stats.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/link-stats.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/linkaddr.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/linkaddr.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/list.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/list.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/log.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/log.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/mac-sequence.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/mac-sequence.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/mac.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/mac.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/memb.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/memb.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/moteid.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/moteid.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/mutex.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/mutex.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/nbr-table.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/nbr-table.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/net-debug.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/net-debug.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/netstack.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/netstack.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/node-id.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/node-id.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/nullframer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/nullframer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/nullnet.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/nullnet.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/nullradio.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/nullradio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/nullrouting.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/nullrouting.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/packetbuf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/packetbuf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/pir-sensor.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/pir-sensor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/printf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/printf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/process.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/process.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/putchar.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/putchar.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/puts.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/puts.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/queuebuf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/queuebuf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/random.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/random.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ringbuf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ringbuf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/ringbufindex.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/ringbufindex.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/rs232.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/rs232.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/rtimer-arch.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/rtimer-arch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/rtimer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/rtimer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/sensors.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/sensors.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/serial-line.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/serial-line.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/simEnvChange.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/simEnvChange.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/snprintf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/snprintf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/sprintf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/sprintf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/stimer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/stimer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/strformat.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/strformat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/timer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/trickle-timer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/trickle-timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/vib-sensor.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/vib-sensor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/cooja/obj/watchdog.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build/cooja/obj/watchdog.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD build/cooja/mtype281649007.o
+LOAD build/cooja/obj/aes-128.o
+LOAD build/cooja/obj/anti-replay.o
+LOAD build/cooja/obj/assert.o
+LOAD build/cooja/obj/atomic.o
+LOAD build/cooja/obj/autostart.o
+LOAD build/cooja/obj/beep.o
+LOAD build/cooja/obj/broadcast-receiver.o
+LOAD build/cooja/obj/button-hal.o
+LOAD build/cooja/obj/buttons.o
+LOAD build/cooja/obj/ccm-star-packetbuf.o
+LOAD build/cooja/obj/ccm-star.o
+LOAD build/cooja/obj/cfs-cooja.o
+LOAD build/cooja/obj/circular-list.o
+LOAD build/cooja/obj/clock.o
+LOAD build/cooja/obj/compower.o
+LOAD build/cooja/obj/contiki-main.o
+LOAD build/cooja/obj/cooja-log.o
+LOAD build/cooja/obj/cooja-radio.o
+LOAD build/cooja/obj/cooja_mt.o
+LOAD build/cooja/obj/cooja_mtarch.o
+LOAD build/cooja/obj/crc16.o
+LOAD build/cooja/obj/csma-output.o
+LOAD build/cooja/obj/csma-security.o
+LOAD build/cooja/obj/csma.o
+LOAD build/cooja/obj/ctimer.o
+LOAD build/cooja/obj/dbl-circ-list.o
+LOAD build/cooja/obj/dbl-list.o
+LOAD build/cooja/obj/eeprom.o
+LOAD build/cooja/obj/energest.o
+LOAD build/cooja/obj/etimer.o
+LOAD build/cooja/obj/frame802154.o
+LOAD build/cooja/obj/frame802154e-ie.o
+LOAD build/cooja/obj/framer-802154.o
+LOAD build/cooja/obj/gpio-hal-arch.o
+LOAD build/cooja/obj/gpio-hal.o
+LOAD build/cooja/obj/heapmem.o
+LOAD build/cooja/obj/hexconv.o
+LOAD build/cooja/obj/ifft.o
+LOAD build/cooja/obj/int-master.o
+LOAD build/cooja/obj/ip.o
+LOAD build/cooja/obj/leds-arch.o
+LOAD build/cooja/obj/leds.o
+LOAD build/cooja/obj/link-stats.o
+LOAD build/cooja/obj/linkaddr.o
+LOAD build/cooja/obj/list.o
+LOAD build/cooja/obj/log.o
+LOAD build/cooja/obj/mac-sequence.o
+LOAD build/cooja/obj/mac.o
+LOAD build/cooja/obj/memb.o
+LOAD build/cooja/obj/moteid.o
+LOAD build/cooja/obj/mutex.o
+LOAD build/cooja/obj/nbr-table.o
+LOAD build/cooja/obj/net-debug.o
+LOAD build/cooja/obj/netstack.o
+LOAD build/cooja/obj/node-id.o
+LOAD build/cooja/obj/nullframer.o
+LOAD build/cooja/obj/nullnet.o
+LOAD build/cooja/obj/nullradio.o
+LOAD build/cooja/obj/nullrouting.o
+LOAD build/cooja/obj/packetbuf.o
+LOAD build/cooja/obj/pir-sensor.o
+LOAD build/cooja/obj/printf.o
+LOAD build/cooja/obj/process.o
+LOAD build/cooja/obj/putchar.o
+LOAD build/cooja/obj/puts.o
+LOAD build/cooja/obj/queuebuf.o
+LOAD build/cooja/obj/random.o
+LOAD build/cooja/obj/ringbuf.o
+LOAD build/cooja/obj/ringbufindex.o
+LOAD build/cooja/obj/rs232.o
+LOAD build/cooja/obj/rtimer-arch.o
+LOAD build/cooja/obj/rtimer.o
+LOAD build/cooja/obj/sensors.o
+LOAD build/cooja/obj/serial-line.o
+LOAD build/cooja/obj/simEnvChange.o
+LOAD build/cooja/obj/snprintf.o
+LOAD build/cooja/obj/sprintf.o
+LOAD build/cooja/obj/stimer.o
+LOAD build/cooja/obj/strformat.o
+LOAD build/cooja/obj/timer.o
+LOAD build/cooja/obj/trickle-timer.o
+LOAD build/cooja/obj/vib-sensor.o
+LOAD build/cooja/obj/watchdog.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0xdc4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0xdc4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000010b8     0x2ee0
+ *(.dynsym)
+ .dynsym        0x00000000000010b8     0x2ee0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000003f98     0x22a3
+ *(.dynstr)
+ .dynstr        0x0000000000003f98     0x22a3 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x000000000000623c      0x3e8
+ *(.gnu.version)
+ .gnu.version   0x000000000000623c      0x3e8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000006628        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000006628        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000006628       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000006628       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000006668     0x1ab8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000006668        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000006668      0x3c0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel
+                0x0000000000006a28      0x3a8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000006dd0      0xa20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro
+                0x00000000000077f0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000007808      0x8e8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000000080f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x00000000000080f0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000008108       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000008120     0x1278
+ *(.rela.plt)
+ .rela.plt      0x0000000000008120     0x1278 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x000000000000a000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x000000000000a000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x000000000000a000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000a000                _init
+ .init          0x000000000000a016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x000000000000a020      0xc60
+ *(.plt)
+ .plt           0x000000000000a020      0xc60 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x000000000000ac80       0x20
+ *(.plt.got)
+ .plt.got       0x000000000000ac80       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x000000000000aca0      0xc50
+ *(.plt.sec)
+ .plt.sec       0x000000000000aca0      0xc50 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x000000000000b8f0     0xf20e
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000000b8f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .text          0x000000000000b8f0       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x000000000000b9a9      0x337 build/cooja/mtype281649007.o
+                0x000000000000ba34                platform_init_stage_one
+                0x000000000000ba49                platform_init_stage_two
+                0x000000000000ba5e                platform_init_stage_three
+                0x000000000000ba73                platform_main_loop
+                0x000000000000bb0d                JNI_OnLoad
+                0x000000000000bb24                Java_org_contikios_cooja_corecomm_Lib2_init
+                0x000000000000bb6b                Java_org_contikios_cooja_corecomm_Lib2_getMemory
+                0x000000000000bbca                Java_org_contikios_cooja_corecomm_Lib2_setMemory
+                0x000000000000bc29                Java_org_contikios_cooja_corecomm_Lib2_tick
+                0x000000000000bcb1                Java_org_contikios_cooja_corecomm_Lib2_setReferenceAddress
+ .text          0x000000000000bce0      0x688 build/cooja/obj/aes-128.o
+ .text          0x000000000000c368        0x0 build/cooja/obj/anti-replay.o
+ .text          0x000000000000c368       0x31 build/cooja/obj/assert.o
+                0x000000000000c368                _xassert
+ .text          0x000000000000c399       0x84 build/cooja/obj/atomic.o
+                0x000000000000c3c6                atomic_generic_cas_uint8
+ .text          0x000000000000c41d       0xbd build/cooja/obj/autostart.o
+                0x000000000000c41d                autostart_start
+                0x000000000000c47e                autostart_exit
+ .text          0x000000000000c4da       0xe6 build/cooja/obj/beep.o
+                0x000000000000c4da                beep_alarm
+                0x000000000000c4f5                beep_beep
+                0x000000000000c50d                beep
+                0x000000000000c522                beep_down
+                0x000000000000c53a                beep_on
+                0x000000000000c54f                beep_off
+                0x000000000000c564                beep_spinup
+                0x000000000000c579                beep_quick
+                0x000000000000c591                beep_long
+ .text          0x000000000000c5c0      0x188 build/cooja/obj/broadcast-receiver.o
+                0x000000000000c5c0                input_callback
+ .text          0x000000000000c748      0x56b build/cooja/obj/button-hal.o
+                0x000000000000c90d                button_hal_get_by_id
+                0x000000000000c95b                button_hal_get_by_index
+                0x000000000000c992                button_hal_get_state
+                0x000000000000c9f5                button_hal_init
+ .text          0x000000000000ccb3       0xa8 build/cooja/obj/buttons.o
+ .text          0x000000000000cd5b        0x0 build/cooja/obj/ccm-star-packetbuf.o
+ .text          0x000000000000cd5b      0x503 build/cooja/obj/ccm-star.o
+ .text          0x000000000000d25e      0x39a build/cooja/obj/cfs-cooja.o
+                0x000000000000d25e                cfs_open
+                0x000000000000d2db                cfs_close
+                0x000000000000d2f0                cfs_read
+                0x000000000000d3b8                cfs_write
+                0x000000000000d4c6                cfs_seek
+                0x000000000000d575                cfs_remove
+                0x000000000000d5a5                cfs_opendir
+                0x000000000000d5bc                cfs_readdir
+                0x000000000000d5d3                cfs_closedir
+ .text          0x000000000000d5f8      0x208 build/cooja/obj/circular-list.o
+                0x000000000000d5f8                circular_list_init
+                0x000000000000d612                circular_list_head
+                0x000000000000d627                circular_list_tail
+                0x000000000000d677                circular_list_remove
+                0x000000000000d70a                circular_list_add
+                0x000000000000d780                circular_list_length
+                0x000000000000d7e5                circular_list_is_empty
+ .text          0x000000000000d800       0x6f build/cooja/obj/clock.o
+                0x000000000000d800                clock_init
+                0x000000000000d80b                clock_time
+                0x000000000000d81f                clock_seconds
+                0x000000000000d84b                clock_delay
+ .text          0x000000000000d86f       0xe2 build/cooja/obj/compower.o
+                0x000000000000d87d                compower_init
+                0x000000000000d897                compower_accumulate
+                0x000000000000d927                compower_clear
+ .text          0x000000000000d951      0x2d8 build/cooja/obj/contiki-main.o
+                0x000000000000d951                main
+ .text          0x000000000000dc29      0x213 build/cooja/obj/cooja-log.o
+                0x000000000000dc29                simlog_char
+                0x000000000000dc83                simlog
+                0x000000000000dd07                log_message
+                0x000000000000dd4c                log_set_putchar_with_slip
+                0x000000000000dd63                dbg_putchar
+                0x000000000000dde4                dbg_send_bytes
+ .text          0x000000000000de3c      0x79f build/cooja/obj/cooja-radio.o
+                0x000000000000de9b                radio_set_channel
+                0x000000000000deb5                radio_set_txpower
+                0x000000000000ded2                radio_signal_strength_last
+                0x000000000000dee5                radio_signal_strength_current
+                0x000000000000def8                radio_LQI
+ .text          0x000000000000e5db       0xab build/cooja/obj/cooja_mt.o
+                0x000000000000e5db                cooja_mt_start
+                0x000000000000e61b                cooja_mt_exec
+                0x000000000000e65e                cooja_mt_yield
+ .text          0x000000000000e686      0x10e build/cooja/obj/cooja_mtarch.o
+                0x000000000000e686                cooja_mtarch_start
+                0x000000000000e729                cooja_sw
+                0x000000000000e756                cooja_mtarch_exec
+                0x000000000000e784                cooja_mtarch_yield
+ .text          0x000000000000e794       0xc6 build/cooja/obj/crc16.o
+                0x000000000000e794                crc16_add
+                0x000000000000e806                crc16_data
+ .text          0x000000000000e85a      0xaba build/cooja/obj/csma-output.o
+                0x000000000000f02e                csma_output_packet
+                0x000000000000f2e5                csma_output_init
+ .text          0x000000000000f314       0x3d build/cooja/obj/csma-security.o
+                0x000000000000f314                csma_security_create_frame
+                0x000000000000f33a                csma_security_parse_frame
+ .text          0x000000000000f351      0x29b build/cooja/obj/csma.o
+ .text          0x000000000000f5ec      0x441 build/cooja/obj/ctimer.o
+                0x000000000000f74e                ctimer_init
+                0x000000000000f783                ctimer_set
+                0x000000000000f7c7                ctimer_set_with_process
+                0x000000000000f881                ctimer_reset
+                0x000000000000f8f2                ctimer_restart
+                0x000000000000f963                ctimer_stop
+                0x000000000000f9c1                ctimer_expired
+ .text          0x000000000000fa2d      0x411 build/cooja/obj/dbl-circ-list.o
+                0x000000000000fa2d                dbl_circ_list_init
+                0x000000000000fa47                dbl_circ_list_head
+                0x000000000000fa5c                dbl_circ_list_tail
+                0x000000000000faac                dbl_circ_list_remove
+                0x000000000000fb7a                dbl_circ_list_add_head
+                0x000000000000fc22                dbl_circ_list_add_tail
+                0x000000000000fcc8                dbl_circ_list_add_after
+                0x000000000000fd3a                dbl_circ_list_add_before
+                0x000000000000fdc6                dbl_circ_list_length
+                0x000000000000fe23                dbl_circ_list_is_empty
+ .text          0x000000000000fe3e      0x3a5 build/cooja/obj/dbl-list.o
+                0x000000000000fe3e                dbl_list_init
+                0x000000000000fe58                dbl_list_head
+                0x000000000000fe6d                dbl_list_tail
+                0x000000000000feb6                dbl_list_remove
+                0x000000000000ff6f                dbl_list_add_head
+                0x000000000000ffe7                dbl_list_add_tail
+                0x0000000000010060                dbl_list_add_after
+                0x00000000000100de                dbl_list_add_before
+                0x0000000000010177                dbl_list_length
+                0x00000000000101c8                dbl_list_is_empty
+ .text          0x00000000000101e3      0x165 build/cooja/obj/eeprom.o
+                0x00000000000101e3                eeprom_init
+                0x00000000000101f2                eeprom_read
+                0x0000000000010292                eeprom_write
+ .text          0x0000000000010348       0x25 build/cooja/obj/energest.o
+                0x0000000000010348                energest_init
+                0x0000000000010353                energest_flush
+                0x000000000001035e                energest_get_total_time
+ .text          0x000000000001036d      0x57c build/cooja/obj/etimer.o
+                0x0000000000010615                etimer_request_poll
+                0x00000000000106c7                etimer_set
+                0x00000000000106fd                etimer_reset_with_new_interval
+                0x0000000000010738                etimer_reset
+                0x0000000000010763                etimer_restart
+                0x000000000001078e                etimer_adjust
+                0x00000000000107bf                etimer_expired
+                0x00000000000107de                etimer_expiration_time
+                0x00000000000107fe                etimer_start_time
+                0x0000000000010813                etimer_pending
+                0x000000000001082d                etimer_next_expiration_time
+                0x000000000001084e                etimer_stop
+ .text          0x00000000000108e9      0xcaa build/cooja/obj/frame802154.o
+                0x0000000000010917                frame802154_get_pan_id
+                0x0000000000010928                frame802154_set_pan_id
+                0x0000000000010944                frame802154_has_panid
+                0x0000000000010b23                frame802154_check_dest_panid
+                0x0000000000010bc2                frame802154_is_broadcast_addr
+                0x0000000000010c19                frame802154_extract_linkaddr
+                0x0000000000010eb3                frame802154_hdrlen
+                0x0000000000010f32                frame802154_create_fcf
+                0x0000000000011004                frame802154_create
+                0x00000000000111ae                frame802154_parse_fcf
+                0x00000000000112a5                frame802154_parse
+ .text          0x0000000000011593     0x10ea build/cooja/obj/frame802154e-ie.o
+                0x00000000000116d8                frame80215e_create_ie_header_ack_nack_time_correction
+                0x0000000000011776                frame80215e_create_ie_header_list_termination_1
+                0x00000000000117cb                frame80215e_create_ie_header_list_termination_2
+                0x0000000000011820                frame80215e_create_ie_payload_list_termination
+                0x0000000000011875                frame80215e_create_ie_mlme
+                0x00000000000118d0                frame80215e_create_ie_tsch_synchronization
+                0x00000000000119a2                frame80215e_create_ie_tsch_slotframe_and_link
+                0x0000000000011bec                frame80215e_create_ie_tsch_timeslot
+                0x0000000000011cea                frame80215e_create_ie_tsch_channel_hopping_sequence
+                0x0000000000012375                frame802154e_parse_information_elements
+ .text          0x000000000001267d      0x452 build/cooja/obj/framer-802154.o
+                0x0000000000012818                framer_802154_setup_params
+ .text          0x0000000000012acf      0x412 build/cooja/obj/gpio-hal-arch.o
+                0x0000000000012acf                gpio_hal_arch_register_pin_callback
+                0x0000000000012b76                gpio_hal_arch_init
+                0x0000000000012bc3                gpio_hal_arch_no_port_interrupt_enable
+                0x0000000000012c10                gpio_hal_arch_no_port_interrupt_disable
+                0x0000000000012c5d                gpio_hal_arch_no_port_pin_cfg_set
+                0x0000000000012c93                gpio_hal_arch_no_port_pin_cfg_get
+                0x0000000000012cc7                gpio_hal_arch_no_port_pin_set_input
+                0x0000000000012cda                gpio_hal_arch_no_port_pin_set_output
+                0x0000000000012ced                gpio_hal_arch_no_port_set_pin
+                0x0000000000012d11                gpio_hal_arch_no_port_clear_pin
+                0x0000000000012d35                gpio_hal_arch_no_port_read_pin
+                0x0000000000012d62                gpio_hal_arch_no_port_write_pin
+                0x0000000000012d8c                gpio_hal_arch_no_port_set_pins
+                0x0000000000012ddb                gpio_hal_arch_no_port_clear_pins
+                0x0000000000012e2a                gpio_hal_arch_no_port_read_pins
+                0x0000000000012e78                gpio_hal_arch_no_port_write_pins
+ .text          0x0000000000012ee1      0x181 build/cooja/obj/gpio-hal.o
+                0x0000000000012ee1                gpio_hal_register_handler
+                0x0000000000012f0a                gpio_hal_event_handler
+                0x0000000000012f75                gpio_hal_init
+                0x0000000000012f94                gpio_hal_arch_port_toggle_pin
+                0x0000000000012fcb                gpio_hal_arch_port_toggle_pins
+                0x0000000000012ffc                gpio_hal_arch_no_port_toggle_pin
+                0x0000000000013036                gpio_hal_arch_no_port_toggle_pins
+ .text          0x0000000000013062      0x889 build/cooja/obj/heapmem.o
+                0x0000000000013429                heapmem_alloc
+                0x00000000000134ae                heapmem_free
+                0x000000000001359d                heapmem_realloc
+                0x00000000000137db                heapmem_stats
+ .text          0x00000000000138eb      0x230 build/cooja/obj/hexconv.o
+                0x000000000001393a                hexconv_hexlify
+                0x00000000000139f5                hexconv_unhexlify
+                0x0000000000013ac9                hexconv_print
+ .text          0x0000000000013b1b      0x4fe build/cooja/obj/ifft.o
+                0x0000000000013c24                ifft
+ .text          0x0000000000014019       0x61 build/cooja/obj/int-master.o
+                0x0000000000014019                int_master_enable
+                0x000000000001402e                int_master_read_and_disable
+                0x000000000001404e                int_master_status_set
+                0x0000000000014065                int_master_is_enabled
+ .text          0x000000000001407a       0x16 build/cooja/obj/ip.o
+ .text          0x0000000000014090       0x77 build/cooja/obj/leds-arch.o
+                0x00000000000140a9                leds_arch_init
+ .text          0x0000000000014107      0x3ad build/cooja/obj/leds.o
+                0x0000000000014107                leds_init
+                0x0000000000014152                leds_single_on
+                0x00000000000141bf                leds_single_off
+                0x000000000001422c                leds_single_toggle
+                0x0000000000014264                leds_on
+                0x00000000000142f5                leds_off
+                0x0000000000014386                leds_toggle
+                0x00000000000143e2                leds_set
+                0x000000000001440b                leds_get
+ .text          0x00000000000144b4      0x47e build/cooja/obj/link-stats.o
+                0x00000000000144b4                link_stats_from_lladdr
+                0x00000000000144dc                link_stats_get_lladdr
+                0x0000000000014504                link_stats_is_fresh
+                0x000000000001454c                guess_etx_from_rssi
+                0x00000000000145d2                link_stats_packet_sent
+                0x0000000000014737                link_stats_input_callback
+                0x0000000000014897                link_stats_reset
+                0x00000000000148f3                link_stats_init
+ .text          0x0000000000014932       0x80 build/cooja/obj/linkaddr.o
+                0x0000000000014932                linkaddr_copy
+                0x0000000000014953                linkaddr_cmp
+                0x0000000000014989                linkaddr_set_node_addr
+ .text          0x00000000000149b2      0x39b build/cooja/obj/list.o
+                0x00000000000149b2                list_init
+                0x00000000000149cc                list_head
+                0x00000000000149e1                list_copy
+                0x0000000000014a02                list_tail
+                0x0000000000014a4b                list_add
+                0x0000000000014aaf                list_push
+                0x0000000000014af2                list_chop
+                0x0000000000014b7f                list_pop
+                0x0000000000014bb9                list_remove
+                0x0000000000014c45                list_length
+                0x0000000000014c80                list_insert
+                0x0000000000014ce3                list_item_next
+                0x0000000000014d06                list_contains
+ .text          0x0000000000014d4d      0x37f build/cooja/obj/log.o
+                0x0000000000014d4d                log_lladdr
+                0x0000000000014dc7                log_lladdr_compact
+                0x0000000000014e43                log_bytes
+                0x0000000000014ea0                log_set_level
+                0x0000000000014faa                log_get_level
+                0x0000000000015061                log_level_to_str
+ .text          0x00000000000150cc      0x1e2 build/cooja/obj/mac-sequence.o
+                0x00000000000150cc                mac_sequence_is_duplicate
+                0x00000000000151b1                mac_sequence_register_seqno
+ .text          0x00000000000152ae       0x3a build/cooja/obj/mac.o
+                0x00000000000152ae                mac_call_sent_callback
+ .text          0x00000000000152e8      0x21a build/cooja/obj/memb.o
+                0x00000000000152e8                memb_init
+                0x000000000001534b                memb_alloc
+                0x00000000000153c5                memb_free
+                0x0000000000015458                memb_inmemb
+                0x00000000000154af                memb_numfree
+ .text          0x0000000000015502       0x41 build/cooja/obj/moteid.o
+ .text          0x0000000000015543       0xa5 build/cooja/obj/mutex.o
+                0x0000000000015570                mutex_generic_try_lock
+                0x00000000000155b7                mutex_generic_unlock
+ .text          0x00000000000155e8      0xca2 build/cooja/obj/nbr-table.o
+                0x0000000000015a47                nbr_table_count_entries
+                0x0000000000015ae6                nbr_table_gc_get_worst
+                0x0000000000015b2a                nbr_table_can_accept_new
+                0x0000000000015cdc                nbr_table_entry_is_allowed
+                0x0000000000015d94                nbr_table_register
+                0x0000000000015e26                nbr_table_is_registered
+                0x0000000000015e7d                nbr_table_head
+                0x0000000000015ee8                nbr_table_next
+                0x0000000000015f62                nbr_table_add_lladdr
+                0x00000000000160bf                nbr_table_get_from_lladdr
+                0x000000000001611b                nbr_table_remove
+                0x000000000001616f                nbr_table_lock
+                0x00000000000161a1                nbr_table_unlock
+                0x00000000000161d3                nbr_table_get_lladdr
+                0x0000000000016216                nbr_table_clear
+                0x0000000000016253                nbr_table_key_head
+                0x000000000001626c                nbr_table_key_next
+ .text          0x000000000001628a       0x7a build/cooja/obj/net-debug.o
+                0x000000000001628a                net_debug_lladdr_print
+ .text          0x0000000000016304      0x12b build/cooja/obj/netstack.o
+                0x0000000000016304                netstack_process_ip_callback
+                0x00000000000163a5                netstack_ip_packet_processor_add
+                0x00000000000163d5                uip_ds6_ip_packet_processor_rm
+                0x00000000000163fe                netstack_init
+ .text          0x000000000001642f       0x36 build/cooja/obj/node-id.o
+                0x000000000001642f                node_id_init
+ .text          0x0000000000016465      0x147 build/cooja/obj/nullframer.o
+ .text          0x00000000000165ac      0x127 build/cooja/obj/nullnet.o
+                0x0000000000016623                nullnet_set_input_callback
+ .text          0x00000000000166d3      0x15a build/cooja/obj/nullradio.o
+ .text          0x000000000001682d      0x145 build/cooja/obj/nullrouting.o
+ .text          0x0000000000016972      0x4a9 build/cooja/obj/packetbuf.o
+                0x0000000000016972                packetbuf_clear
+                0x00000000000169a0                packetbuf_copyfrom
+                0x00000000000169fa                packetbuf_copyto
+                0x0000000000016aa1                packetbuf_hdralloc
+                0x0000000000016b30                packetbuf_hdrreduce
+                0x0000000000016b80                packetbuf_set_datalen
+                0x0000000000016b9c                packetbuf_dataptr
+                0x0000000000016bc2                packetbuf_hdrptr
+                0x0000000000016bd3                packetbuf_datalen
+                0x0000000000016be4                packetbuf_hdrlen
+                0x0000000000016c00                packetbuf_totlen
+                0x0000000000016c23                packetbuf_remaininglen
+                0x0000000000016c3b                packetbuf_attr_clear
+                0x0000000000016ca0                packetbuf_attr_copyto
+                0x0000000000016ceb                packetbuf_attr_copyfrom
+                0x0000000000016d36                packetbuf_set_attr
+                0x0000000000016d66                packetbuf_attr
+                0x0000000000016d87                packetbuf_set_addr
+                0x0000000000016dcd                packetbuf_addr
+                0x0000000000016df7                packetbuf_holds_broadcast
+ .text          0x0000000000016e1b       0xfa build/cooja/obj/pir-sensor.o
+ .text          0x0000000000016f15      0x113 build/cooja/obj/printf.o
+                0x0000000000016f4a                printf
+                0x0000000000016f4a                __wrap_printf
+ .text          0x0000000000017028      0x67a build/cooja/obj/process.o
+                0x0000000000017028                process_alloc_event
+                0x0000000000017042                process_start
+                0x00000000000172b3                process_exit
+                0x00000000000172df                process_init
+                0x00000000000174dc                process_run
+                0x0000000000017511                process_nevents
+                0x0000000000017531                process_post
+                0x00000000000175f9                process_post_synch
+                0x0000000000017647                process_poll
+                0x0000000000017684                process_is_running
+ .text          0x00000000000176a2       0x1b build/cooja/obj/putchar.o
+                0x00000000000176a2                putchar
+                0x00000000000176a2                __wrap_putchar
+ .text          0x00000000000176bd       0x38 build/cooja/obj/puts.o
+                0x00000000000176bd                puts
+                0x00000000000176bd                __wrap_puts
+ .text          0x00000000000176f5      0x35d build/cooja/obj/queuebuf.o
+                0x000000000001770a                queuebuf_init
+                0x000000000001772d                queuebuf_numfree
+                0x0000000000017743                queuebuf_new_from_packetbuf
+                0x00000000000177e9                queuebuf_update_attr_from_packetbuf
+                0x000000000001782c                queuebuf_update_from_packetbuf
+                0x0000000000017888                queuebuf_free
+                0x00000000000178db                queuebuf_to_packetbuf
+                0x0000000000017951                queuebuf_dataptr
+                0x0000000000017995                queuebuf_datalen
+                0x00000000000179c5                queuebuf_addr
+                0x0000000000017a0c                queuebuf_attr
+                0x0000000000017a47                queuebuf_debug_print
+ .text          0x0000000000017a52       0x2f build/cooja/obj/random.o
+                0x0000000000017a52                random_init
+                0x0000000000017a72                random_rand
+ .text          0x0000000000017a81      0x19d build/cooja/obj/ringbuf.o
+                0x0000000000017a81                ringbuf_init
+                0x0000000000017ac2                ringbuf_put
+                0x0000000000017b51                ringbuf_get
+                0x0000000000017bcf                ringbuf_size
+                0x0000000000017beb                ringbuf_elements
+ .text          0x0000000000017c1e      0x25a build/cooja/obj/ringbufindex.o
+                0x0000000000017c1e                ringbufindex_init
+                0x0000000000017c4f                ringbufindex_put
+                0x0000000000017cba                ringbufindex_peek_put
+                0x0000000000017d0c                ringbufindex_get
+                0x0000000000017d79                ringbufindex_peek_get
+                0x0000000000017dc1                ringbufindex_size
+                0x0000000000017ddc                ringbufindex_elements
+                0x0000000000017e0e                ringbufindex_full
+                0x0000000000017e52                ringbufindex_empty
+ .text          0x0000000000017e78      0x188 build/cooja/obj/rs232.o
+                0x0000000000017e78                rs232_init
+                0x0000000000017e83                rs232_set_speed
+                0x0000000000017e93                rs232_set_input
+                0x0000000000017ead                rs232_send
+                0x0000000000017ecc                rs232_print
+                0x0000000000017ef7                slip_arch_writeb
+ .text          0x0000000000018000       0xcc build/cooja/obj/rtimer-arch.o
+                0x0000000000018000                rtimer_arch_init
+                0x0000000000018026                rtimer_arch_schedule
+                0x0000000000018050                rtimer_arch_next
+                0x0000000000018064                rtimer_arch_pending
+                0x0000000000018077                rtimer_arch_check
+                0x00000000000180b8                rtimer_arch_now
+ .text          0x00000000000180cc      0x101 build/cooja/obj/rtimer.o
+                0x00000000000180cc                rtimer_init
+                0x00000000000180dc                rtimer_set
+                0x000000000001815d                rtimer_run_next
+ .text          0x00000000000181cd      0x35f build/cooja/obj/sensors.o
+                0x0000000000018216                sensors_first
+                0x000000000001822a                sensors_next
+                0x0000000000018259                sensors_changed
+                0x00000000000182a6                sensors_find
+ .text          0x000000000001852c      0x229 build/cooja/obj/serial-line.o
+                0x000000000001852c                serial_line_input_byte
+                0x000000000001871e                serial_line_init
+ .text          0x0000000000018755       0x93 build/cooja/obj/simEnvChange.o
+                0x0000000000018755                doActionsBeforeTick
+                0x000000000001879e                doActionsAfterTick
+ .text          0x00000000000187e8      0x1f5 build/cooja/obj/snprintf.o
+                0x0000000000018870                __wrap_snprintf
+                0x0000000000018870                snprintf
+                0x0000000000018955                vsnprintf
+                0x0000000000018955                __wrap_vsnprintf
+ .text          0x00000000000189dd      0x152 build/cooja/obj/sprintf.o
+                0x0000000000018a28                __wrap_sprintf
+                0x0000000000018a28                sprintf
+ .text          0x0000000000018b2f      0x123 build/cooja/obj/stimer.o
+                0x0000000000018b2f                stimer_set
+                0x0000000000018b5e                stimer_reset
+                0x0000000000018b9a                stimer_restart
+                0x0000000000018bb9                stimer_expired
+                0x0000000000018bfb                stimer_remaining
+                0x0000000000018c31                stimer_elapsed
+ .text          0x0000000000018c52     0x1710 build/cooja/obj/strformat.o
+                0x0000000000018fc5                format_str
+                0x00000000000190a6                format_str_v
+ .text          0x000000000001a362       0xfb build/cooja/obj/timer.o
+                0x000000000001a362                timer_set
+                0x000000000001a391                timer_reset
+                0x000000000001a3cd                timer_restart
+                0x000000000001a3ec                timer_expired
+                0x000000000001a427                timer_remaining
+ .text          0x000000000001a45d      0x55e build/cooja/obj/trickle-timer.o
+                0x000000000001a7b8                trickle_timer_consistency
+                0x000000000001a7f4                trickle_timer_inconsistency
+                0x000000000001a845                trickle_timer_config
+                0x000000000001a91c                trickle_timer_set
+ .text          0x000000000001a9bb       0xfa build/cooja/obj/vib-sensor.o
+ .text          0x000000000001aab5       0x49 build/cooja/obj/watchdog.o
+                0x000000000001aab5                watchdog_init
+                0x000000000001aac0                watchdog_start
+                0x000000000001aacb                watchdog_periodic
+                0x000000000001aae8                watchdog_stop
+                0x000000000001aaf3                watchdog_reboot
+ .text          0x000000000001aafe        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x000000000001aafe        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000001ab00        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x000000000001ab00        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000001ab00                _fini
+ .fini          0x000000000001ab08        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000001b000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x000000000001b000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x000000000001b000      0x84a
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000001b000      0x100 build/cooja/obj/aes-128.o
+ .rodata        0x000000000001b100       0x25 build/cooja/obj/assert.o
+ .rodata        0x000000000001b125       0x4d build/cooja/obj/broadcast-receiver.o
+ .rodata        0x000000000001b172       0x13 build/cooja/obj/button-hal.o
+ .rodata        0x000000000001b185       0x14 build/cooja/obj/buttons.o
+                0x000000000001b191                button_hal_button_count
+ *fill*         0x000000000001b199        0x7 
+ .rodata        0x000000000001b1a0       0x26 build/cooja/obj/cfs-cooja.o
+ *fill*         0x000000000001b1c6        0x2 
+ .rodata        0x000000000001b1c8       0xda build/cooja/obj/contiki-main.o
+ *fill*         0x000000000001b2a2        0x2 
+ .rodata        0x000000000001b2a4       0x68 build/cooja/obj/cooja-radio.o
+ *fill*         0x000000000001b30c        0x4 
+ .rodata        0x000000000001b310       0x27 build/cooja/obj/csma-output.o
+ .rodata        0x000000000001b337        0x5 build/cooja/obj/csma.o
+ .rodata        0x000000000001b33c        0xf build/cooja/obj/ctimer.o
+ .rodata        0x000000000001b34b        0xc build/cooja/obj/etimer.o
+ *fill*         0x000000000001b357        0x9 
+ .rodata        0x000000000001b360       0xb0 build/cooja/obj/heapmem.o
+ .rodata        0x000000000001b410       0x16 build/cooja/obj/hexconv.o
+ *fill*         0x000000000001b426       0x1a 
+ .rodata        0x000000000001b440       0x78 build/cooja/obj/ifft.o
+ .rodata        0x000000000001b4b8        0x6 build/cooja/obj/leds-arch.o
+                0x000000000001b4b8                leds_arch_leds
+ *fill*         0x000000000001b4be        0x2 
+ .rodata        0x000000000001b4c0        0x8 build/cooja/obj/linkaddr.o
+                0x000000000001b4c0                linkaddr_null
+ .rodata        0x000000000001b4c8       0xa4 build/cooja/obj/log.o
+ .rodata        0x000000000001b56c       0x14 build/cooja/obj/net-debug.o
+ .rodata        0x000000000001b580        0x8 build/cooja/obj/nullnet.o
+ .rodata        0x000000000001b588        0xc build/cooja/obj/nullrouting.o
+ .rodata        0x000000000001b594        0x4 build/cooja/obj/pir-sensor.o
+ .rodata        0x000000000001b598        0x3 build/cooja/obj/rs232.o
+ .rodata        0x000000000001b59b        0x8 build/cooja/obj/sensors.o
+ .rodata        0x000000000001b5a3        0xe build/cooja/obj/serial-line.o
+ *fill*         0x000000000001b5b1        0xf 
+ .rodata        0x000000000001b5c0      0x280 build/cooja/obj/strformat.o
+ .rodata        0x000000000001b840        0xa build/cooja/obj/vib-sensor.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000001b84c     0x1204
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000001b84c     0x1204 build/cooja/mtype281649007.o
+                0x000000000001b84c                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000001ca50     0x482c
+ *(.eh_frame)
+ .eh_frame      0x000000000001ca50       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000001ca90       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000001caa8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000001cac0      0x198 build/cooja/mtype281649007.o
+                                        0x1b0 (size before relaxing)
+ .eh_frame      0x000000000001cc58       0x60 build/cooja/obj/aes-128.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000001ccb8       0x20 build/cooja/obj/assert.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000001ccd8       0x60 build/cooja/obj/atomic.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000001cd38       0x40 build/cooja/obj/autostart.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001cd78      0x160 build/cooja/obj/beep.o
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000001ced8       0x40 build/cooja/obj/broadcast-receiver.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001cf18      0x160 build/cooja/obj/button-hal.o
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000001d078       0xa0 build/cooja/obj/buttons.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000001d118       0xc0 build/cooja/obj/ccm-star.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000001d1d8      0x160 build/cooja/obj/cfs-cooja.o
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000001d338       0xe0 build/cooja/obj/circular-list.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x000000000001d418       0xc0 build/cooja/obj/clock.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000001d4d8       0x80 build/cooja/obj/compower.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001d558       0x20 build/cooja/obj/contiki-main.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000001d578      0x100 build/cooja/obj/cooja-log.o
+                                        0x118 (size before relaxing)
+ .eh_frame      0x000000000001d678      0x360 build/cooja/obj/cooja-radio.o
+                                        0x378 (size before relaxing)
+ .eh_frame      0x000000000001d9d8       0x60 build/cooja/obj/cooja_mt.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000001da38       0x80 build/cooja/obj/cooja_mtarch.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001dab8       0x40 build/cooja/obj/crc16.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001daf8      0x1c8 build/cooja/obj/csma-output.o
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x000000000001dcc0       0x40 build/cooja/obj/csma-security.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001dd00       0xe0 build/cooja/obj/csma.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x000000000001dde0      0x100 build/cooja/obj/ctimer.o
+                                        0x118 (size before relaxing)
+ .eh_frame      0x000000000001dee0      0x140 build/cooja/obj/dbl-circ-list.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x000000000001e020      0x140 build/cooja/obj/dbl-list.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x000000000001e160       0xa0 build/cooja/obj/eeprom.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000001e200       0x60 build/cooja/obj/energest.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000001e260      0x1e0 build/cooja/obj/etimer.o
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x000000000001e440      0x1a8 build/cooja/obj/frame802154.o
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x000000000001e5e8      0x220 build/cooja/obj/frame802154e-ie.o
+                                        0x238 (size before relaxing)
+ .eh_frame      0x000000000001e808       0xa8 build/cooja/obj/framer-802154.o
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x000000000001e8b0      0x220 build/cooja/obj/gpio-hal-arch.o
+                                        0x238 (size before relaxing)
+ .eh_frame      0x000000000001ead0       0xe0 build/cooja/obj/gpio-hal.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x000000000001ebb0      0x160 build/cooja/obj/heapmem.o
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000001ed10       0x80 build/cooja/obj/hexconv.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001ed90       0xa0 build/cooja/obj/ifft.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000001ee30       0x80 build/cooja/obj/int-master.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001eeb0       0x40 build/cooja/obj/ip.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001eef0       0x80 build/cooja/obj/leds-arch.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001ef70      0x120 build/cooja/obj/leds.o
+                                        0x138 (size before relaxing)
+ .eh_frame      0x000000000001f090      0x120 build/cooja/obj/link-stats.o
+                                        0x138 (size before relaxing)
+ .eh_frame      0x000000000001f1b0       0x60 build/cooja/obj/linkaddr.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000001f210      0x1a0 build/cooja/obj/list.o
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x000000000001f3b0       0xc0 build/cooja/obj/log.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000001f470       0x48 build/cooja/obj/mac-sequence.o
+                                         0x60 (size before relaxing)
+ .eh_frame      0x000000000001f4b8       0x20 build/cooja/obj/mac.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000001f4d8       0xa0 build/cooja/obj/memb.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000001f578       0x40 build/cooja/obj/moteid.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001f5b8       0x80 build/cooja/obj/mutex.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001f638      0x3e0 build/cooja/obj/nbr-table.o
+                                        0x3f8 (size before relaxing)
+ .eh_frame      0x000000000001fa18       0x20 build/cooja/obj/net-debug.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000001fa38       0x80 build/cooja/obj/netstack.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001fab8       0x20 build/cooja/obj/node-id.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000001fad8       0x80 build/cooja/obj/nullframer.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001fb58       0x88 build/cooja/obj/nullnet.o
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x000000000001fbe0      0x1c0 build/cooja/obj/nullradio.o
+                                        0x1d8 (size before relaxing)
+ .eh_frame      0x000000000001fda0      0x280 build/cooja/obj/nullrouting.o
+                                        0x298 (size before relaxing)
+ .eh_frame      0x0000000000020020      0x288 build/cooja/obj/packetbuf.o
+                                        0x2a0 (size before relaxing)
+ .eh_frame      0x00000000000202a8       0xa0 build/cooja/obj/pir-sensor.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000020348       0x40 build/cooja/obj/printf.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000020388      0x1c8 build/cooja/obj/process.o
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x0000000000020550       0x20 build/cooja/obj/putchar.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000020570       0x20 build/cooja/obj/puts.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000020590      0x1a0 build/cooja/obj/queuebuf.o
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x0000000000020730       0x40 build/cooja/obj/random.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000020770       0xa0 build/cooja/obj/ringbuf.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000020810      0x120 build/cooja/obj/ringbufindex.o
+                                        0x138 (size before relaxing)
+ .eh_frame      0x0000000000020930      0x100 build/cooja/obj/rs232.o
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000000020a30       0xc0 build/cooja/obj/rtimer-arch.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000020af0       0x60 build/cooja/obj/rtimer.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000020b50       0xc0 build/cooja/obj/sensors.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000020c10       0x60 build/cooja/obj/serial-line.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000020c70       0x40 build/cooja/obj/simEnvChange.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000020cb0       0x60 build/cooja/obj/snprintf.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000020d10       0x40 build/cooja/obj/sprintf.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000020d50       0xc0 build/cooja/obj/stimer.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000020e10      0x120 build/cooja/obj/strformat.o
+                                        0x138 (size before relaxing)
+ .eh_frame      0x0000000000020f30       0xa0 build/cooja/obj/timer.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000020fd0      0x168 build/cooja/obj/trickle-timer.o
+                                        0x180 (size before relaxing)
+ .eh_frame      0x0000000000021138       0xa0 build/cooja/obj/vib-sensor.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x00000000000211d8       0xa0 build/cooja/obj/watchdog.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000021278        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000022710                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000022710        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000022710        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x0000000000022718        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000022718        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000022720      0x410
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000022720       0x10 build/cooja/obj/aes-128.o
+                0x0000000000022720                aes_128_driver
+ .data.rel.ro.local
+                0x0000000000022730       0x10 build/cooja/obj/beep.o
+                0x0000000000022730                beep_interface
+ .data.rel.ro.local
+                0x0000000000022740       0x40 build/cooja/obj/buttons.o
+                0x0000000000022740                button_interface
+                0x0000000000022760                button_sensor
+ .data.rel.ro.local
+                0x0000000000022780       0x10 build/cooja/obj/ccm-star.o
+                0x0000000000022780                ccm_star_driver
+ .data.rel.ro.local
+                0x0000000000022790       0x10 build/cooja/obj/cfs-cooja.o
+                0x0000000000022790                cfs_interface
+ .data.rel.ro.local
+                0x00000000000227a0       0x10 build/cooja/obj/clock.o
+                0x00000000000227a0                clock_interface
+ .data.rel.ro.local
+                0x00000000000227b0       0x10 build/cooja/obj/cooja-log.o
+                0x00000000000227b0                simlog_interface
+ .data.rel.ro.local
+                0x00000000000227c0       0x90 build/cooja/obj/cooja-radio.o
+                0x00000000000227c0                radio_interface
+                0x00000000000227e0                cooja_radio_driver
+ *fill*         0x0000000000022850       0x10 
+ .data.rel.ro.local
+                0x0000000000022860       0x38 build/cooja/obj/csma.o
+                0x0000000000022860                csma_driver
+ *fill*         0x0000000000022898        0x8 
+ .data.rel.ro.local
+                0x00000000000228a0       0x10 build/cooja/obj/eeprom.o
+                0x00000000000228a0                eeprom_interface
+ .data.rel.ro.local
+                0x00000000000228b0       0x18 build/cooja/obj/framer-802154.o
+                0x00000000000228b0                framer_802154
+ *fill*         0x00000000000228c8        0x8 
+ .data.rel.ro.local
+                0x00000000000228d0       0x10 build/cooja/obj/ip.o
+                0x00000000000228d0                ip_interface
+ .data.rel.ro.local
+                0x00000000000228e0       0x10 build/cooja/obj/leds-arch.o
+                0x00000000000228e0                leds_interface
+ .data.rel.ro.local
+                0x00000000000228f0       0x10 build/cooja/obj/moteid.o
+                0x00000000000228f0                moteid_interface
+ .data.rel.ro.local
+                0x0000000000022900       0x18 build/cooja/obj/nullframer.o
+                0x0000000000022900                no_framer
+ *fill*         0x0000000000022918        0x8 
+ .data.rel.ro.local
+                0x0000000000022920       0x20 build/cooja/obj/nullnet.o
+                0x0000000000022920                nullnet_driver
+ .data.rel.ro.local
+                0x0000000000022940       0x70 build/cooja/obj/nullradio.o
+                0x0000000000022940                nullradio_driver
+ *fill*         0x00000000000229b0       0x10 
+ .data.rel.ro.local
+                0x00000000000229c0       0xa8 build/cooja/obj/nullrouting.o
+                0x00000000000229c0                nullrouting_driver
+ *fill*         0x0000000000022a68       0x18 
+ .data.rel.ro.local
+                0x0000000000022a80       0x40 build/cooja/obj/pir-sensor.o
+                0x0000000000022a80                pir_interface
+                0x0000000000022aa0                pir_sensor
+ .data.rel.ro.local
+                0x0000000000022ac0       0x10 build/cooja/obj/rs232.o
+                0x0000000000022ac0                rs232_interface
+ *fill*         0x0000000000022ad0       0x10 
+ .data.rel.ro.local
+                0x0000000000022ae0       0x40 build/cooja/obj/vib-sensor.o
+                0x0000000000022ae0                vib_interface
+                0x0000000000022b00                vib_sensor
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000022b20        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data.rel.ro   0x0000000000022b20       0x10 build/cooja/obj/broadcast-receiver.o
+                0x0000000000022b20                autostart_processes
+
+.dynamic        0x0000000000022b30      0x1c0
+ *(.dynamic)
+ .dynamic       0x0000000000022b30      0x1c0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000022b30                _DYNAMIC
+
+.got            0x0000000000022cf0      0x2f8
+ *(.got)
+ .got           0x0000000000022cf0      0x2f8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000022fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000023000      0x640
+ *(.got.plt)
+ .got.plt       0x0000000000023000      0x640 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000023000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000023640      0x540
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000023640        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000023640        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .data.rel.local
+                0x0000000000023640        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x0000000000023640                __dso_handle
+ .data          0x0000000000023648        0x0 build/cooja/mtype281649007.o
+ *fill*         0x0000000000023648       0x18 
+ .data.rel      0x0000000000023660       0xa0 build/cooja/mtype281649007.o
+                0x0000000000023660                simInterfaces
+                0x00000000000236e0                sensors
+ .data          0x0000000000023700        0x0 build/cooja/obj/aes-128.o
+ .data          0x0000000000023700        0x0 build/cooja/obj/anti-replay.o
+ .data          0x0000000000023700        0x0 build/cooja/obj/assert.o
+ .data          0x0000000000023700        0x0 build/cooja/obj/atomic.o
+ .data          0x0000000000023700        0x0 build/cooja/obj/autostart.o
+ .data          0x0000000000023700        0x0 build/cooja/obj/beep.o
+ .data          0x0000000000023700        0x0 build/cooja/obj/broadcast-receiver.o
+ .data.rel.local
+                0x0000000000023700       0x20 build/cooja/obj/broadcast-receiver.o
+                0x0000000000023700                broadcast_receiver
+ .data          0x0000000000023720        0x0 build/cooja/obj/button-hal.o
+ .data.rel.local
+                0x0000000000023720       0x20 build/cooja/obj/button-hal.o
+                0x0000000000023720                button_hal_process
+ .data          0x0000000000023740        0x1 build/cooja/obj/buttons.o
+                0x0000000000023740                simButtonIsActive
+ *fill*         0x0000000000023741       0x1f 
+ .data.rel.local
+                0x0000000000023760       0xb0 build/cooja/obj/buttons.o
+                0x0000000000023800                button_hal_buttons
+ .data          0x0000000000023810        0x0 build/cooja/obj/ccm-star-packetbuf.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/ccm-star.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/cfs-cooja.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/circular-list.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/clock.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/compower.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/contiki-main.o
+ .data          0x0000000000023810        0x0 build/cooja/obj/cooja-log.o
+ .data          0x0000000000023810       0x20 build/cooja/obj/cooja-radio.o
+                0x0000000000023810                simRadioHWOn
+                0x0000000000023814                simSignalStrength
+                0x0000000000023818                simLastSignalStrength
+                0x000000000002381c                simPower
+                0x0000000000023820                simRadioChannel
+                0x0000000000023824                simLQI
+                0x0000000000023828                simLastLQI
+ *fill*         0x0000000000023830       0x10 
+ .data.rel.local
+                0x0000000000023840       0x20 build/cooja/obj/cooja-radio.o
+                0x0000000000023840                cooja_radio_process
+ .data          0x0000000000023860        0x0 build/cooja/obj/cooja_mt.o
+ .data          0x0000000000023860        0x0 build/cooja/obj/cooja_mtarch.o
+ .data          0x0000000000023860        0x0 build/cooja/obj/crc16.o
+ .data          0x0000000000023860        0x0 build/cooja/obj/csma-output.o
+ .data.rel.local
+                0x0000000000023860       0x60 build/cooja/obj/csma-output.o
+ .data          0x00000000000238c0        0x0 build/cooja/obj/csma-security.o
+ .data          0x00000000000238c0        0x0 build/cooja/obj/csma.o
+ .data          0x00000000000238c0        0x0 build/cooja/obj/ctimer.o
+ .data.rel.local
+                0x00000000000238c0       0x40 build/cooja/obj/ctimer.o
+                0x00000000000238e0                ctimer_process
+ .data          0x0000000000023900        0x0 build/cooja/obj/dbl-circ-list.o
+ .data          0x0000000000023900        0x0 build/cooja/obj/dbl-list.o
+ .data          0x0000000000023900        0x0 build/cooja/obj/eeprom.o
+ .data          0x0000000000023900        0x0 build/cooja/obj/energest.o
+ .data          0x0000000000023900        0x0 build/cooja/obj/etimer.o
+ .data.rel.local
+                0x0000000000023900       0x20 build/cooja/obj/etimer.o
+                0x0000000000023900                etimer_process
+ .data          0x0000000000023920        0x2 build/cooja/obj/frame802154.o
+ .data          0x0000000000023922        0x0 build/cooja/obj/frame802154e-ie.o
+ .data          0x0000000000023922        0x0 build/cooja/obj/framer-802154.o
+ .data          0x0000000000023922        0x0 build/cooja/obj/gpio-hal-arch.o
+ .data          0x0000000000023922        0x0 build/cooja/obj/gpio-hal.o
+ *fill*         0x0000000000023922        0x6 
+ .data.rel.local
+                0x0000000000023928        0x8 build/cooja/obj/gpio-hal.o
+ .data          0x0000000000023930        0x0 build/cooja/obj/heapmem.o
+ .data.rel.local
+                0x0000000000023930        0x8 build/cooja/obj/heapmem.o
+ .data          0x0000000000023938        0x0 build/cooja/obj/hexconv.o
+ .data.rel.local
+                0x0000000000023938        0x8 build/cooja/obj/hexconv.o
+ .data          0x0000000000023940        0x0 build/cooja/obj/ifft.o
+ .data          0x0000000000023940        0x0 build/cooja/obj/int-master.o
+ .data          0x0000000000023940        0x0 build/cooja/obj/ip.o
+ .data          0x0000000000023940        0x0 build/cooja/obj/leds-arch.o
+ .data          0x0000000000023940        0x0 build/cooja/obj/leds.o
+ .data          0x0000000000023940        0x0 build/cooja/obj/link-stats.o
+ .data.rel.local
+                0x0000000000023940       0x20 build/cooja/obj/link-stats.o
+ .data          0x0000000000023960        0x0 build/cooja/obj/linkaddr.o
+ .data          0x0000000000023960        0x0 build/cooja/obj/list.o
+ .data          0x0000000000023960        0x4 build/cooja/obj/log.o
+                0x0000000000023960                curr_log_level_main
+ *fill*         0x0000000000023964       0x1c 
+ .data.rel      0x0000000000023980      0x138 build/cooja/obj/log.o
+                0x0000000000023980                all_modules
+ .data          0x0000000000023ab8        0x0 build/cooja/obj/mac-sequence.o
+ .data          0x0000000000023ab8        0x0 build/cooja/obj/mac.o
+ .data          0x0000000000023ab8        0x0 build/cooja/obj/memb.o
+ .data          0x0000000000023ab8        0x0 build/cooja/obj/moteid.o
+ .data          0x0000000000023ab8        0x0 build/cooja/obj/mutex.o
+ .data          0x0000000000023ab8        0x0 build/cooja/obj/nbr-table.o
+ *fill*         0x0000000000023ab8        0x8 
+ .data.rel.local
+                0x0000000000023ac0       0x20 build/cooja/obj/nbr-table.o
+ .data          0x0000000000023ae0        0x0 build/cooja/obj/net-debug.o
+ .data          0x0000000000023ae0        0x0 build/cooja/obj/netstack.o
+ .data.rel.local
+                0x0000000000023ae0        0x8 build/cooja/obj/netstack.o
+ .data          0x0000000000023ae8        0x0 build/cooja/obj/node-id.o
+ .data          0x0000000000023ae8        0x0 build/cooja/obj/nullframer.o
+ .data          0x0000000000023ae8        0x0 build/cooja/obj/nullnet.o
+ .data          0x0000000000023ae8        0x0 build/cooja/obj/nullradio.o
+ .data          0x0000000000023ae8        0x0 build/cooja/obj/nullrouting.o
+ .data          0x0000000000023ae8        0x0 build/cooja/obj/packetbuf.o
+ .data.rel.local
+                0x0000000000023ae8        0x8 build/cooja/obj/packetbuf.o
+ .data          0x0000000000023af0        0x0 build/cooja/obj/pir-sensor.o
+ .data          0x0000000000023af0        0x0 build/cooja/obj/printf.o
+ .data.rel.local
+                0x0000000000023af0       0x10 build/cooja/obj/printf.o
+ .data          0x0000000000023b00        0x0 build/cooja/obj/process.o
+ .data          0x0000000000023b00        0x0 build/cooja/obj/putchar.o
+ .data          0x0000000000023b00        0x0 build/cooja/obj/puts.o
+ .data          0x0000000000023b00        0x0 build/cooja/obj/queuebuf.o
+ .data.rel.local
+                0x0000000000023b00       0x38 build/cooja/obj/queuebuf.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/random.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/ringbuf.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/ringbufindex.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/rs232.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/rtimer-arch.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/rtimer.o
+ .data          0x0000000000023b38        0x0 build/cooja/obj/sensors.o
+ *fill*         0x0000000000023b38        0x8 
+ .data.rel.local
+                0x0000000000023b40       0x20 build/cooja/obj/sensors.o
+                0x0000000000023b40                sensors_process
+ .data          0x0000000000023b60        0x0 build/cooja/obj/serial-line.o
+ .data.rel.local
+                0x0000000000023b60       0x20 build/cooja/obj/serial-line.o
+                0x0000000000023b60                serial_line_process
+ .data          0x0000000000023b80        0x0 build/cooja/obj/simEnvChange.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/snprintf.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/sprintf.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/stimer.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/strformat.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/timer.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/trickle-timer.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/vib-sensor.o
+ .data          0x0000000000023b80        0x0 build/cooja/obj/watchdog.o
+ .data          0x0000000000023b80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000023b80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x0000000000023b80        0x0
+ .tm_clone_table
+                0x0000000000023b80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x0000000000023b80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000023b80                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x0000000000023b80     0x9358
+ *(.dynbss)
+ .dynbss        0x0000000000023b80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000023b80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000023b80        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000023b81       0x1f 
+ .bss           0x0000000000023ba0     0x4040 build/cooja/mtype281649007.o
+ .bss           0x0000000000027be0       0xb0 build/cooja/obj/aes-128.o
+ .bss           0x0000000000027c90        0x0 build/cooja/obj/anti-replay.o
+ .bss           0x0000000000027c90        0x0 build/cooja/obj/assert.o
+ .bss           0x0000000000027c90        0x0 build/cooja/obj/atomic.o
+ .bss           0x0000000000027c90        0x0 build/cooja/obj/autostart.o
+ .bss           0x0000000000027c90        0x0 build/cooja/obj/beep.o
+ *fill*         0x0000000000027c90       0x10 
+ .bss           0x0000000000027ca0       0x40 build/cooja/obj/broadcast-receiver.o
+ .bss           0x0000000000027ce0       0x28 build/cooja/obj/button-hal.o
+ .bss           0x0000000000027d08        0x0 build/cooja/obj/buttons.o
+ .bss           0x0000000000027d08        0x0 build/cooja/obj/ccm-star-packetbuf.o
+ .bss           0x0000000000027d08        0x0 build/cooja/obj/ccm-star.o
+ *fill*         0x0000000000027d08       0x18 
+ .bss           0x0000000000027d20      0xfc0 build/cooja/obj/cfs-cooja.o
+                0x0000000000027d20                simCFSData
+                0x0000000000028cc0                simCFSSize
+                0x0000000000028cc4                simCFSChanged
+                0x0000000000028cc8                simCFSRead
+                0x0000000000028ccc                simCFSWritten
+ .bss           0x0000000000028ce0        0x0 build/cooja/obj/circular-list.o
+ .bss           0x0000000000028ce0        0x0 build/cooja/obj/clock.o
+ .bss           0x0000000000028ce0       0x10 build/cooja/obj/compower.o
+ .bss           0x0000000000028cf0        0x0 build/cooja/obj/contiki-main.o
+ .bss           0x0000000000028cf0        0x5 build/cooja/obj/cooja-log.o
+ *fill*         0x0000000000028cf5        0x3 
+ .bss           0x0000000000028cf8       0x2c build/cooja/obj/cooja-radio.o
+                0x0000000000028cf8                simReceiving
+                0x0000000000028cfc                simInSize
+                0x0000000000028d00                simLastPacketTimestamp
+                0x0000000000028d08                simOutSize
+ *fill*         0x0000000000028d24        0x4 
+ .bss           0x0000000000028d28        0x8 build/cooja/obj/cooja_mt.o
+ .bss           0x0000000000028d30        0x8 build/cooja/obj/cooja_mtarch.o
+ .bss           0x0000000000028d38        0x0 build/cooja/obj/crc16.o
+ *fill*         0x0000000000028d38        0x8 
+ .bss           0x0000000000028d40      0x2aa build/cooja/obj/csma-output.o
+ .bss           0x0000000000028fea        0x0 build/cooja/obj/csma-security.o
+ .bss           0x0000000000028fea        0x0 build/cooja/obj/csma.o
+ *fill*         0x0000000000028fea        0x6 
+ .bss           0x0000000000028ff0        0x9 build/cooja/obj/ctimer.o
+ .bss           0x0000000000028ff9        0x0 build/cooja/obj/dbl-circ-list.o
+ .bss           0x0000000000028ff9        0x0 build/cooja/obj/dbl-list.o
+ *fill*         0x0000000000028ff9        0x3 
+ .bss           0x0000000000028ffc        0xc build/cooja/obj/eeprom.o
+                0x0000000000028ffc                simEEPROMChanged
+                0x0000000000029000                simEEPROMRead
+                0x0000000000029004                simEEPROMWritten
+ .bss           0x0000000000029008        0x0 build/cooja/obj/energest.o
+ .bss           0x0000000000029008       0x10 build/cooja/obj/etimer.o
+ .bss           0x0000000000029018        0x0 build/cooja/obj/frame802154.o
+ .bss           0x0000000000029018        0x0 build/cooja/obj/frame802154e-ie.o
+ .bss           0x0000000000029018        0x2 build/cooja/obj/framer-802154.o
+ *fill*         0x000000000002901a        0x6 
+ .bss           0x0000000000029020       0x40 build/cooja/obj/gpio-hal-arch.o
+ .bss           0x0000000000029060        0x8 build/cooja/obj/gpio-hal.o
+ .bss           0x0000000000029068       0x18 build/cooja/obj/heapmem.o
+ .bss           0x0000000000029080        0x0 build/cooja/obj/hexconv.o
+ .bss           0x0000000000029080        0x0 build/cooja/obj/ifft.o
+ .bss           0x0000000000029080        0x4 build/cooja/obj/int-master.o
+ .bss           0x0000000000029084        0x0 build/cooja/obj/ip.o
+ .bss           0x0000000000029084        0x1 build/cooja/obj/leds-arch.o
+                0x0000000000029084                simLedsValue
+ .bss           0x0000000000029085        0x0 build/cooja/obj/leds.o
+ *fill*         0x0000000000029085       0x1b 
+ .bss           0x00000000000290a0      0x100 build/cooja/obj/link-stats.o
+ .bss           0x00000000000291a0        0x0 build/cooja/obj/linkaddr.o
+ .bss           0x00000000000291a0        0x0 build/cooja/obj/list.o
+ .bss           0x00000000000291a0       0x2c build/cooja/obj/log.o
+                0x00000000000291a0                curr_log_level_rpl
+                0x00000000000291a4                curr_log_level_tcpip
+                0x00000000000291a8                curr_log_level_ipv6
+                0x00000000000291ac                curr_log_level_6lowpan
+                0x00000000000291b0                curr_log_level_nullnet
+                0x00000000000291b4                curr_log_level_mac
+                0x00000000000291b8                curr_log_level_framer
+                0x00000000000291bc                curr_log_level_6top
+                0x00000000000291c0                curr_log_level_coap
+                0x00000000000291c4                curr_log_level_snmp
+                0x00000000000291c8                curr_log_level_lwm2m
+ *fill*         0x00000000000291cc       0x14 
+ .bss           0x00000000000291e0      0x180 build/cooja/obj/mac-sequence.o
+ .bss           0x0000000000029360        0x0 build/cooja/obj/mac.o
+ .bss           0x0000000000029360        0x0 build/cooja/obj/memb.o
+ .bss           0x0000000000029360        0x0 build/cooja/obj/moteid.o
+ .bss           0x0000000000029360        0x0 build/cooja/obj/mutex.o
+ .bss           0x0000000000029360      0x188 build/cooja/obj/nbr-table.o
+ .bss           0x00000000000294e8        0x0 build/cooja/obj/net-debug.o
+ .bss           0x00000000000294e8        0x8 build/cooja/obj/netstack.o
+ .bss           0x00000000000294f0        0x2 build/cooja/obj/node-id.o
+                0x00000000000294f0                node_id
+ .bss           0x00000000000294f2        0x0 build/cooja/obj/nullframer.o
+ *fill*         0x00000000000294f2        0x6 
+ .bss           0x00000000000294f8        0x8 build/cooja/obj/nullnet.o
+ .bss           0x0000000000029500        0x0 build/cooja/obj/nullradio.o
+ .bss           0x0000000000029500        0x0 build/cooja/obj/nullrouting.o
+ .bss           0x0000000000029500       0xa0 build/cooja/obj/packetbuf.o
+ .bss           0x00000000000295a0        0x1 build/cooja/obj/pir-sensor.o
+                0x00000000000295a0                simPirValue
+ .bss           0x00000000000295a1        0x0 build/cooja/obj/printf.o
+ *fill*         0x00000000000295a1       0x1f 
+ .bss           0x00000000000295c0      0x321 build/cooja/obj/process.o
+                0x00000000000295c0                process_list
+                0x00000000000295c8                process_current
+ .bss           0x00000000000298e1        0x0 build/cooja/obj/putchar.o
+ .bss           0x00000000000298e1        0x0 build/cooja/obj/puts.o
+ *fill*         0x00000000000298e1       0x1f 
+ .bss           0x0000000000029900      0x5e0 build/cooja/obj/queuebuf.o
+ .bss           0x0000000000029ee0        0x0 build/cooja/obj/random.o
+ .bss           0x0000000000029ee0        0x0 build/cooja/obj/ringbuf.o
+ .bss           0x0000000000029ee0        0x0 build/cooja/obj/ringbufindex.o
+ .bss           0x0000000000029ee0        0x8 build/cooja/obj/rs232.o
+ .bss           0x0000000000029ee8        0x0 build/cooja/obj/rtimer-arch.o
+ .bss           0x0000000000029ee8        0x8 build/cooja/obj/rtimer.o
+ .bss           0x0000000000029ef0        0xc build/cooja/obj/sensors.o
+ *fill*         0x0000000000029efc        0x4 
+ .bss           0x0000000000029f00      0x140 build/cooja/obj/serial-line.o
+ .bss           0x000000000002a040        0x1 build/cooja/obj/simEnvChange.o
+                0x000000000002a040                simDontFallAsleep
+ .bss           0x000000000002a041        0x0 build/cooja/obj/snprintf.o
+ .bss           0x000000000002a041        0x0 build/cooja/obj/sprintf.o
+ .bss           0x000000000002a041        0x0 build/cooja/obj/stimer.o
+ .bss           0x000000000002a041        0x0 build/cooja/obj/strformat.o
+ .bss           0x000000000002a041        0x0 build/cooja/obj/timer.o
+ *fill*         0x000000000002a041        0x7 
+ .bss           0x000000000002a048       0x10 build/cooja/obj/trickle-timer.o
+ .bss           0x000000000002a058        0x1 build/cooja/obj/vib-sensor.o
+                0x000000000002a058                simVibValue
+ .bss           0x000000000002a059        0x0 build/cooja/obj/watchdog.o
+ .bss           0x000000000002a059        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x000000000002a059        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+ *fill*         0x000000000002a059        0x7 
+ COMMON         0x000000000002a060        0xc build/cooja/mtype281649007.o
+                0x000000000002a060                referenceVar
+                0x000000000002a068                sensors_flags
+ COMMON         0x000000000002a06c        0x1 build/cooja/obj/beep.o
+                0x000000000002a06c                simBeeped
+ COMMON         0x000000000002a06d        0x3 build/cooja/obj/button-hal.o
+                0x000000000002a06d                button_hal_periodic_event
+                0x000000000002a06e                button_hal_press_event
+                0x000000000002a06f                button_hal_release_event
+ COMMON         0x000000000002a070        0x2 build/cooja/obj/buttons.o
+                0x000000000002a070                simButtonIsDown
+                0x000000000002a071                simButtonChanged
+ *fill*         0x000000000002a072        0x6 
+ COMMON         0x000000000002a078        0x8 build/cooja/obj/clock.o
+                0x000000000002a078                simCurrentTime
+ COMMON         0x000000000002a080       0x10 build/cooja/obj/compower.o
+                0x000000000002a080                compower_idle_activity
+ *fill*         0x000000000002a090       0x10 
+ COMMON         0x000000000002a0a0     0x2020 build/cooja/obj/cooja-log.o
+                0x000000000002a0a0                simLoggedLength
+                0x000000000002a0a4                simLoggedFlag
+                0x000000000002a0c0                simLoggedData
+ COMMON         0x000000000002c0c0       0xfd build/cooja/obj/cooja-radio.o
+                0x000000000002c0c0                simOutDataBuffer
+                0x000000000002c140                simInDataBuffer
+ *fill*         0x000000000002c1bd        0x3 
+ COMMON         0x000000000002c1c0      0x400 build/cooja/obj/eeprom.o
+                0x000000000002c1c0                simEEPROMData
+ COMMON         0x000000000002c5c0       0x40 build/cooja/obj/link-stats.o
+                0x000000000002c5c0                periodic_timer
+ COMMON         0x000000000002c600        0x8 build/cooja/obj/linkaddr.o
+                0x000000000002c600                linkaddr_node_addr
+ COMMON         0x000000000002c608        0xc build/cooja/obj/moteid.o
+                0x000000000002c608                simRandomSeed
+                0x000000000002c60c                simMoteIDChanged
+                0x000000000002c610                simMoteID
+ *fill*         0x000000000002c614        0x4 
+ COMMON         0x000000000002c618       0x10 build/cooja/obj/nullnet.o
+                0x000000000002c618                nullnet_len
+                0x000000000002c620                nullnet_buf
+ *fill*         0x000000000002c628        0x8 
+ COMMON         0x000000000002c630       0x30 build/cooja/obj/packetbuf.o
+                0x000000000002c630                packetbuf_attrs
+                0x000000000002c650                packetbuf_addrs
+ COMMON         0x000000000002c660        0x2 build/cooja/obj/pir-sensor.o
+                0x000000000002c660                simPirIsActive
+                0x000000000002c661                simPirChanged
+ *fill*         0x000000000002c662       0x1e 
+ COMMON         0x000000000002c680      0x820 build/cooja/obj/rs232.o
+                0x000000000002c680                simSerialReceivingFlag
+                0x000000000002c684                simSerialReceivingLength
+                0x000000000002c6a0                simSerialReceivingData
+ COMMON         0x000000000002cea0       0x18 build/cooja/obj/rtimer-arch.o
+                0x000000000002cea0                simRtimerPending
+                0x000000000002cea8                simRtimerCurrentTicks
+                0x000000000002ceb0                simRtimerNextExpirationTime
+ COMMON         0x000000000002ceb8        0x1 build/cooja/obj/sensors.o
+                0x000000000002ceb8                sensors_event
+ COMMON         0x000000000002ceb9        0x1 build/cooja/obj/serial-line.o
+                0x000000000002ceb9                serial_line_event_message
+ *fill*         0x000000000002ceba        0x6 
+ COMMON         0x000000000002cec0       0x10 build/cooja/obj/simEnvChange.o
+                0x000000000002cec0                simEtimerPending
+                0x000000000002cec4                simProcessRunValue
+                0x000000000002cec8                simEtimerNextExpirationTime
+ COMMON         0x000000000002ced0        0x2 build/cooja/obj/vib-sensor.o
+                0x000000000002ced0                simVibChanged
+                0x000000000002ced1                simVibIsActive
+                0x000000000002ced8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000002ced2        0x6 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000002ced8                . = ALIGN (0x8)
+                0x000000000002ced8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000002eed8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000002eed8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000002eed8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000002eed8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c build/cooja/mtype281649007.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/aes-128.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/anti-replay.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/assert.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/atomic.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/autostart.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/beep.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/broadcast-receiver.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/button-hal.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/buttons.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ccm-star-packetbuf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ccm-star.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/cfs-cooja.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/circular-list.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/clock.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/compower.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/contiki-main.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/cooja-log.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/cooja-radio.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/cooja_mt.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/cooja_mtarch.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/crc16.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/csma-output.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/csma-security.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/csma.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ctimer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/dbl-circ-list.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/dbl-list.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/eeprom.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/energest.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/etimer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/frame802154.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/frame802154e-ie.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/framer-802154.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/gpio-hal-arch.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/gpio-hal.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/heapmem.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/hexconv.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ifft.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/int-master.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ip.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/leds-arch.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/leds.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/link-stats.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/linkaddr.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/list.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/log.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/mac-sequence.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/mac.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/memb.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/moteid.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/mutex.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/nbr-table.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/net-debug.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/netstack.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/node-id.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/nullframer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/nullnet.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/nullradio.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/nullrouting.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/packetbuf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/pir-sensor.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/printf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/process.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/putchar.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/puts.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/queuebuf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/random.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ringbuf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/ringbufindex.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/rs232.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/rtimer-arch.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/rtimer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/sensors.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/serial-line.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/simEnvChange.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/snprintf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/sprintf.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/stimer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/strformat.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/timer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/trickle-timer.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/vib-sensor.o
+ .comment       0x000000000000002b       0x2c build/cooja/obj/watchdog.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(build/cooja/mtype281649007.cooja elf64-x86-64)

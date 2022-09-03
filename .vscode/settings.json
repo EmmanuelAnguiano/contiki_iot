@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "sensor_virtual.C": "cpp"
+        "sensor_virtual.C": "cpp",
+        "broadcast-sender.C": "cpp",
+        "broadcast-sender.c.C": "cpp"
     }
 }
